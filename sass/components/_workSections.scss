@@ -65,10 +65,10 @@ img {
   max-width: 100%;
   height: auto;
 }
-.image-description {
+.section-list__box {
   position: relative;
 }
-.description-block {
+.section-list__overlay {
   position: absolute;
   display: flex;
   width: 370px;
@@ -78,7 +78,7 @@ img {
   bottom: 0px;
   background: rgba(47, 48, 58, 0.8);
 }
-.description-block__text {
+.section-list__overlay-text {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
